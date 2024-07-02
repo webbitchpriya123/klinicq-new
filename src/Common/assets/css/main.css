@@ -1,0 +1,2231 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal !important;
+    /* font-family: "Poppins", sans-serif; */
+}
+body{
+    font-family: "Roboto", sans-serif !important;
+}
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-400');
+@import url('https://fonts.cdnfonts.com/css/typo-grotesk');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-40 {
+    max-width: 40% !important;
+    margin: 0 auto;
+}
+a{
+    font-family: "Poppins", sans-serif;
+}
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+    font-weight: 600;
+    color: #00275A;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    margin: 0 0 20px 0;
+    color: #646464;
+    line-height: 28px !important;
+}
+.container-60 {
+    max-width: 60% !important;
+    margin: 0 auto;
+}
+
+.container-65 {
+    max-width: 65% !important;
+    margin: 0 auto;
+}
+
+.container-75 {
+    max-width: 75% !important;
+    margin: 0 auto;
+}
+
+.container-80 {
+    max-width: 80% !important;
+    margin: 0 auto;
+}
+
+.container-85 {
+    max-width: 85% !important;
+    margin: 0 auto;
+}
+
+.container-90 {
+    max-width: 90% !important;
+    margin: 0 auto;
+}
+
+.container-95 {
+    max-width: 95% !important;
+    margin: 0 auto;
+}
+
+.container-98 {
+    max-width: 98% !important;
+    margin: 0 auto;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+
+
+
+/* animation css start  */
+.slide-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.slide-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible.slide-left,
+.visible.slide-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-left {
+    opacity: 0;
+    transform: translateX(1);
+}
+
+.slide-right {
+    opacity: 0;
+    transform: translateX(1);
+}
+
+/* topmove page css  */
+.top-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: #3EA9E0;
+    z-index: 100;
+}
+
+/* home page css start */
+.section-top {
+    padding: 200px 0px 10px 0px;
+}
+
+.section-top h3 {
+    color: #00275A;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.scheduel-section {
+    margin-top: 20px;
+}
+
+.section-top button {
+    color: #FFF;
+    padding: 10px 45px;
+    background: #2d2e5b;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+.scheduel-section p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.play-around {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #007bff;
+    display: flex;
+}
+
+.play-around .icon {
+    position: relative;
+    top: 35%;
+    left: 40%;
+    /* transform: translate(-50%,-50%); */
+}
+
+.see-demo {
+    margin-top: 0px !important;
+    vertical-align: super;
+    color: #99beff !important;
+    padding: 0px 0px !important;
+    background: none !important;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.right-img {
+    padding-left: 100px;
+    padding-top: 50px;
+    background: #ecf3ff;
+}
+
+.vector_move {
+    position: absolute;
+    top: 18%;
+    left: 60%;
+}
+
+.success-rate {
+    width: 10%;
+    background: #00275A;
+    border-radius: 10px;
+    padding: 20px 0px;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
+.success-rate h1 {
+    margin-top: 10px;
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.goal-section {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+}
+
+.goal-section h1 {
+    color: #00275A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.goal-section p {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.single-click {
+    background: #F5FCFF;
+}
+
+.single-click h1 {
+    color: #111111;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.single-click p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px !important;
+    color: #646464;
+}
+
+.arrow-section {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #3EA9E0;
+}
+
+.arrow-section .icon {
+    position: relative;
+    top: 30%;
+    left: 35%;
+    transform: rotate(25deg);
+}
+
+
+.hospital-details {
+    background: #F5FCFF;
+}
+
+.hospital-details .arrow-section {
+    border-radius: 50%;
+    background: #FFF;
+    margin-top: -8px
+}
+
+.patient {
+    position: relative;
+}
+
+.patient .doctor-content {
+    padding: 0px 12px;
+    margin: -5px 0px;
+    position: absolute;
+    top: 70%;
+}
+
+.doctor-content h1 {
+    color: var(--White, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.doctor-content p {
+    color: #E9E9E9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px !important;
+}
+
+.img-section::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 97%;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #00275A 100%);
+}
+
+.fliter-section {
+    background: var(--White, #FFF);
+    padding: 10px 0px;
+}
+
+.fliter-section label {
+    color: var(--Text-Color, #64748B);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+.fliter-section .search-list input::placeholder {
+    color: var(--Dark-Grey, #063047);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.35px;
+}
+
+.search-list select {
+    /* padding: 0px 35px; */
+    color: var(--Dark-Grey, #063047);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.35px;
+}
+.search-list input{
+    font-size: 16px;
+    font-weight: 500;
+}
+.search-list {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+}
+
+/* .search-list input:focus-visible {
+    border: unset !important;
+} */
+.search-list input:focus-visible {
+    border: none !important;
+    padding: 10px 0px;
+    border: 2px solid #006CB5 !important;
+    outline: #006CB5;
+    border-radius: 10px;
+}
+
+.search-list select:focus-visible {
+    width: 100%;
+    border: none !important;
+    padding: 10px 0px;
+    border: 2px solid #006CB5 !important;
+    outline: #006CB5;
+    border-radius: 10px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+}
+.lastbtn{
+    display: flex;
+    align-items: center;
+}
+.search-option {
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.search {
+    /* width: 100%; */
+    padding: 30px 70px;
+    border: none;
+    border-radius: 7px;
+    background: #00275A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.search-lists button {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #00275A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.search-lists button.view-full{
+    background: #eae7e7 !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+/* logo slider css  */
+.slick-cloned {
+    display: none !important;
+}
+
+/* .logo-slider .slick-track {
+    width: 95% !important;
+    margin: 0 auto;
+} */
+
+.logo-slide {
+    width: 100%;
+    height: 20vh;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-slide:hover {
+    border-radius: 9px;
+    border: 1px solid var(--Primary, #01285C);
+    background: var(--Primary, #01285C);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-slide h1 {
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-slide:hover h1 {
+    color: var(--White, #FFF);
+}
+
+.logo-image {
+    text-align: -webkit-center !important;
+    /* height: 8vh; */
+}
+
+.logo-slide:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.card-views:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* simple slider css  */
+.search-lists {
+    width: 100% !important;
+    /* padding: 15px; */
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+}
+
+.search-lists h2 {
+    color: #00275A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.search-lists h4 {
+    padding: 5px 10px;
+    border-radius: 27px;
+    border: 1px solid #BBEBFF;
+    background: #D8F3FF;
+    color: #004467;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.search-lists p {
+    margin-top: 10px;
+    color: #7B7E80;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px !important;
+    letter-spacing: 0.3px;
+}
+img.footerLogo{
+    width: 180px;
+}
+.owl-dots {
+    display: none;
+}
+
+.view-full {
+    border-radius: 0px 0px 5px 5px !important;
+    background: #FBFBFB !important;
+    color: var(--text, #7B7E80) !important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.book-now {
+    border-radius: 0px 0px 5px 0px !important;
+    background: var(--Primary, #01285C);
+}
+
+
+/* rest section css  */
+.rest-section {
+    /* color: #00275A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; */
+}
+
+.mar-top {
+    margin-top: -35px;
+}
+
+.rest-section h1 {
+    color: #00275A;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* .rest-section p {
+    color: #524E4E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+} */
+
+.available label {
+    color: #6A6A6A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.available p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px !important;
+}
+
+.book-appointment {
+    margin-bottom: 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    background: #B8E7FF;
+}
+
+.book-appointment h1 {
+    color: #01285c;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 19px;
+    font-family: "Roboto", sans-serif;;
+}
+
+.book-appointment p {
+    color: #01285c;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 19px;
+    font-family: "Poppins", sans-serif;
+}
+
+.book-appointment .calender {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #DAEBF4;
+}
+
+.book-appointment .calender img {
+    position: relative;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.available {
+    width: 40%;
+    border-radius: 20px 0px;
+    border: 1px solid rgba(250, 250, 250, 0.80);
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(36.400001525878906px);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.doctor-name h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.doctor-name p {
+    color: #524E4E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.find-doctor button {
+    padding: 10px;
+    border-radius: 47px;
+    background: #00275A;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;    border: 0;
+}
+
+
+/* online section css  */
+.pad-section {
+    padding: 100px 200px 100px 0px;
+}
+
+.online-section h1 {
+    color: #00275A;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.online-section p {
+    /* color: #000; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.online-section button {
+    padding: 12px 28px;
+    border-radius: 6px;
+    background: #00275A;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+/* patient css start  */
+.patient-section .card {
+    border-radius: 8px 8px 8px 8px;
+}
+
+.patient-section h2 {
+    color: #111111;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-section p {
+    color: #707070;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 26px !important;
+}
+
+.patient-section a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+/* About css start  */
+
+.sub-banner {
+    padding: 190px 0px 100px 0px;
+    background: linear-gradient(180deg, #F0FAFF 0%, rgba(204, 238, 255, 0.00) 100%);
+}
+
+.sub-banner h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.sub-banner p {
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #838383;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px !important;
+}
+
+.vision-section h1 {
+    color: #00275a;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vision-section h5 {
+    padding: 10px 0px;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.vision-section p {
+    /* width: 85%; */
+    /* color: #585858; */
+
+ 
+    line-height: 28px;
+}
+
+.total-vision img {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+
+.vision-section h2 {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    color: var(--White, #FFF);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vision-section h3 {
+    width: 8%;
+    margin: 0 auto;
+    position: absolute;
+    top: 41%;
+    right: 41%;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.company-section {
+    padding: 100px 0px;
+}
+
+.content-company {
+    padding: 100px 0px;
+}
+
+.company-section h1 {
+    color: #00275a;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company-section p {
+    margin: 25px 0px;
+    /* color: #646464; */
+    /* font-size: 16px; */
+    /* font-weight: 500; */
+    line-height: 22px;
+}
+
+/* time css satrt  */
+.time-line {
+    margin-bottom: 100px;
+}
+
+.time-line h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.time-content {
+    padding: 150px 0px !important;
+}
+
+.time-content .year1 {
+    position: absolute;
+    top: 44%;
+    left: 13%;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-content .content1 {
+    width: 18%;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.content1 p {
+    padding: 18px;
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.time-content .year2 {
+    position: absolute;
+    top: 73%;
+    left: 30.5%;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-content .content2 {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    width: 18%;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.content2 p {
+    padding: 18px;
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.time-content .year3 {
+    position: absolute;
+    top: 44%;
+    left: 48%;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-content .content3 {
+    width: 18%;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.content3 p {
+    padding: 18px;
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.time-content .year4 {
+    position: absolute;
+    top: 73%;
+    left: 65%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-content .content4 {
+    position: absolute;
+    top: 85%;
+    left: 58%;
+    width: 18%;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.content4 p {
+    padding: 18px;
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.time-content .year5 {
+    position: absolute;
+    top: 44%;
+    left: 85.5%;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-content .content5 {
+    width: 18%;
+    border-radius: 9px;
+    border: 1px solid #EEE;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 20%;
+    left: 77%;
+}
+
+.content5 p {
+    padding: 18px;
+    color: var(--Text-Drak, #2A3237);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* book mangement css start  */
+/* .sub-banner {
+    padding: 190px 0px 100px 0px;
+    background: linear-gradient(180deg, #F0FAFF 0%, rgba(204, 238, 255, 0.00) 100%);
+} */
+
+/* .sub-banner h1 {
+    color: #00275A;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+} */
+
+.book-section .sub-banner p {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #838383;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.small-busniess {
+    padding: 150px 0px;
+}
+
+.small-busniess h1 {
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.small-busniess p {
+    color: #1C1C24;
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-content {
+    background: #FDFDFD;
+    padding: 50px 30px;
+}
+
+.form-content h1 {
+    color: #1C1C24;
+    font-family: Poppins !important;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.form-content p {
+    /* width: 60%; */
+    padding: 10px 0px;
+    color: #838383;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-content label {
+    color: #1C1C24;
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-content input {
+    padding: 10px;
+    margin: 10px 0px 15px 0px;
+    border-radius: 5px;
+    border: 1px solid #F1F1F1;
+    background: var(--White, #FFF);
+}
+
+.check-section {
+    padding: 10px;
+}
+
+.check-section h1 {
+    margin-top: 10px;
+    color: #000;
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.check-section input {
+    border: 1px solid #F8F9FA;
+    background: #F4F4F4;
+}
+
+.form-content button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #00275A;
+    color: var(--White, #FFF);
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.agree-section {
+    margin: 20px 0px;
+}
+
+.agree-section input[type="checkbox"] {
+    display: none;
+}
+
+.agree-section .custom-checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    background-color: #00275A;
+    margin-right: 10px;
+}
+
+.agree-section input[type="checkbox"]:checked+.custom-checkbox::before {
+    content: "\2713";
+    padding: 0px 2px;
+    background-color: #00275A;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.agree-section p {
+    width: 100%;
+    color: #838383;
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.policy {
+    color: #00275A !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* contact-section css start  */
+
+/* .contact-section {} */
+
+.contact-section .card-section {
+    padding: 20px 20px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    background: var(--White, #FFF);
+}
+
+.card-section h1 {
+    margin: 25px 0px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-section p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contact-section .form-content h6 {
+    /* width: 23%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #A3DCF3;
+    background: #B5E9FE;
+    color: #3060A8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center; */
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.download-btn a {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 12px 21px 12px 80px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.download-btn a img {
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    width: 36px;
+    color: #fff;
+    transition: all 500ms ease;
+}
+.download-btn .app-store-btn {
+    margin-right: 37px;
+}
+.download-btn a span {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* product-section css start  */
+.product-section .sub-banner p {
+    width: 80% !important;
+}
+
+.product-section section h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 36px !important;
+}
+
+.product-section section p {
+    margin: 20px 0px;
+    font-size: 16px;
+    line-height: 28px !important;
+}
+
+.product-section .bg-section {
+    /* margin: 150px 0px; */
+    margin-top: 150px;
+    padding: 20px 0px;
+    background: rgba(244, 251, 255, 0.50);
+}
+
+.product-section .bgs-section {
+    margin: 150px 0px;
+    padding: 20px 0px;
+}
+
+.product-section h2 {
+    margin: 50px 0px;
+    text-align: center;
+    color: #00275A;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-section .pad-content {
+    padding-top: 150px;
+}
+
+.product-section h5 {
+    color: var(--Secondry, #117DC1);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px !important;
+}
+
+.product-section .repeat-img {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+
+.product-section .scan-img {
+    position: absolute;
+    top: 70%;
+    right: 88%;
+}
+
+.klinicq {
+    background: #D6E9F4;
+    padding: 100px 0px;
+}
+
+.klinicq h1 {
+    margin-bottom: 150px;
+    color: #00275A;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.card-views {
+    padding: 50px 10px;
+    border-radius: 9px;
+    border: 1px solid #F8F8F8;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card-views:hover {
+    padding: 50px 10px;
+    border-radius: 9px;
+    border: 1px solid #002B64;
+    background: #00275A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card-views:hover h4 {
+    margin-top: 10px;
+    color: var(--White, #FFF) !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.card-views h4 {
+    margin-top: 10px;
+    color: #00275A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;    font-family: "Roboto", sans-serif;
+}
+
+.card-views img {
+    filter: brightness(0) invert(0);
+}
+
+.card-views:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.klinicq h1 {
+    color: #00275A !important;
+    font-size: 40px !important;
+    line-height: 50px;
+}
+
+
+
+
+@media only screen and (min-width: 776px) and (max-width:991px) {
+
+    /* home page css start  */
+    .container-75 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .section-top h3 {
+        font-size: 40px;
+        line-height: 50px !important;
+    }
+
+    .right-img {
+        padding-left: 0px;
+        padding-top: 0px;
+        background: #ecf3ff;
+    }
+
+    .section-top {
+        padding: 150px 0px 10px 0px;
+    }
+
+    .success-rate {
+        width: 20%;
+        top: 50%;
+        left: 70%;
+        padding: 20px 10px;
+    }
+
+    .vector_move {
+        top: 48%;
+        left: 85%;
+    }
+
+    .goal-section {
+        top: 88%;
+        left: 75%;
+    }
+
+    .patient .doctor-content {
+        top: 70%;
+    }
+
+    .available {
+        width: 70%;
+        top: 40%;
+        left: 15%;
+    }
+
+    .pad-section {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .rest3 {
+        width: 100%;
+    }
+
+    .rest-section label {
+        font-size: 25px;
+        line-height: 35px !important;
+        text-align: start;
+    }
+
+    .mar-top {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .rest-section p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: start;
+        padding-left: 0px !important;
+    }
+
+    .book-appointment {
+        width: 100%;
+    }
+
+    .doctor-name {
+        margin-left: 20px;
+    }
+
+    .doctor-name h2 {
+        padding: 0px !important;
+        text-align: start;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .find-doctor button {
+        padding: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .rest-section h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    /* about page css start  */
+    .sub-banner p {
+        width: 50%;
+    }
+
+    .company-section {
+        padding: 0px 0px;
+    }
+
+    .content-company {
+        padding: 0px 0px;
+    }
+
+    .total-vision img {
+        top: 15%;
+        right: 7%;
+    }
+
+    .vision-section h2 {
+        top: 15%;
+        left: 83%;
+    }
+
+    .vision-section h3 {
+        width: 9%;
+        top: 21%;
+        right: 10%;
+    }
+
+    .company-section {
+        padding: 0px 0px !important;
+    }
+
+    .time-content .year1 {
+        top: 51%;
+        left: 12.5%;
+        font-size: 18px !important;
+        line-height: 34px;
+    }
+
+    .time-content .year2 {
+        top: 71%;
+        left: 29.5%;
+        font-size: 18px !important;
+        line-height: 34px;
+    }
+
+    .time-content .year3 {
+        top: 51%;
+        left: 47.5%;
+        font-size: 18px !important;
+        line-height: 34px;
+    }
+
+    .time-content .year4 {
+        top: 71%;
+        left: 64.5%;
+        font-size: 18px !important;
+        line-height: 34px;
+    }
+
+    .time-content .year5 {
+        top: 51%;
+        left: 84.5%;
+        font-size: 18px !important;
+        line-height: 34px;
+    }
+
+    .content1 p {
+        padding: 18px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .time-content .content1 {
+        width: 25%;
+        top: 25%;
+        left: 3%;
+    }
+
+    .time-content .content2 {
+        width: 35%;
+        top: 80%;
+        left: 15%;
+    }
+
+    .time-content .content3 {
+        width: 30%;
+        top: 25%;
+        left: 35%;
+    }
+
+    .time-content .content4 {
+        width: 30%;
+        top: 80%;
+        left: 55%;
+    }
+
+    .time-content .content5 {
+        width: 30%;
+        top: 25%;
+        left: 70%;
+    }
+
+    /* product css start  */
+    .sub-banner {
+        padding: 150px 0px 0px 0px;
+    }
+
+    .product-section .bg-section {
+        margin: 0px 0px;
+    }
+
+    .product-section section h1 {
+        font-size: 40px;
+        line-height: 50px !important;
+    }
+
+    .img-responsive {
+        margin: 50px 0px;
+        text-align: -webkit-center !important;
+    }
+
+    .product-section .bg-section {
+        margin: 0px 0px;
+    }
+
+    .product-section .pad-content {
+        padding-top: 0px;
+    }
+
+    .product-section .bgs-section {
+        margin: 0px 0px;
+    }
+
+    .klinicq h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .small-busniess {
+        padding: 10px 0px;
+    }
+
+    /* logo slider css start  */
+    .logo-slide {
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width:776px) {
+    .container-75 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .section-top h3 {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .scheduel-section {
+        margin-top: 35px;
+    }
+
+    .right-img {
+        padding-left: 0px;
+        padding-top: 0px;
+        background: #ecf3ff;
+    }
+
+    .section-top {
+        padding: 150px 0px 10px 0px;
+    }
+
+    .success-rate {
+        width: 25%;
+        top: 40%;
+        left: 65%;
+        padding: 20px 10px;
+    }
+
+    .vector_move {
+        top: 38%;
+        left: 82%;
+    }
+
+    .goal-section {
+        top: 80%;
+        left: 65%;
+    }
+
+    .patient .doctor-content {
+        top: 50%;
+    }
+
+    .doctor-content p {
+        font-size: 12px;
+        line-height: 18px !important;
+    }
+
+    .single-click h1 {
+        font-size: 28px;
+    }
+
+    .single-click p {
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+
+    .available {
+        width: 50%;
+        top: 30%;
+        left: 46%;
+    }
+
+    .pad-section {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .rest3 {
+        width: 100%;
+    }
+
+    .rest-section label {
+        font-size: 20px;
+        line-height: 30px !important;
+        text-align: start;
+    }
+
+    .mar-top {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .rest-section p {
+        font-size: 15px;
+        line-height: 25px !important;
+        text-align: start;
+        padding-left: 0px !important;
+    }
+
+    .book-appointment {
+        width: 100%;
+    }
+
+    .doctor-name {
+        margin-left: 20px;
+    }
+
+    .doctor-name h2 {
+        padding: 0px !important;
+        text-align: start;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .find-doctor button {
+        padding: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .online-section h1 {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .online-section p {
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    .rest-section h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* product css start  */
+    .sub-banner {
+        padding: 150px 0px 0px 0px;
+        background: linear-gradient(180deg, #F0FAFF 0%, rgba(204, 238, 255, 0.00) 100%);
+    }
+
+    .sub-banner h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .product-section section h1 {
+        font-size: 30px;
+        line-height: 40px !important;
+    }
+
+    .img-responsive {
+        margin: 50px 0px;
+        text-align: -webkit-center !important;
+    }
+
+    .product-section .bg-section {
+        margin: 0px 0px;
+    }
+
+    .product-section .pad-content {
+        padding-top: 0px;
+    }
+
+    /* about page css start  */
+    .sub-banner p {
+        width: 60%;
+    }
+
+    .content-company {
+        padding: 0px 0px;
+    }
+
+    .total-vision img {
+        position: absolute;
+        top: 12%;
+        right: 5%;
+    }
+
+    .vision-section h2 {
+        top: 12%;
+        left: 78%;
+    }
+
+    .vision-section h3 {
+        width: 11%;
+        top: 19%;
+        right: 12%;
+    }
+
+    .company-section {
+        padding: 0px 0px !important;
+    }
+
+    /* patient page css start  */
+    .product-section .repeat-img {
+        top: 10%;
+        left: 85%;
+    }
+
+    .product-section .scan-img {
+        position: absolute;
+        top: 70%;
+        right: 85%;
+    }
+
+    .product-section .bgs-section {
+        margin: 0px 0px;
+    }
+
+    .klinicq h1 {
+        font-size: 23px !important;
+        line-height: 40px !important;
+    }
+
+    /* book-appointment css start  */
+    .small-busniess {
+        padding: 10px 0px;
+    }
+
+    .small-busniess h1 {
+        margin-bottom: 50px;
+        font-size: 35px;
+        line-height: 36px;
+    }
+
+    .contact-section .form-content h6 {
+        width: 30%;
+    }
+
+    .form-content p {
+        /* width: 80% !important; */
+    }
+
+    /* logo slider css start  */
+    .logo-slide {
+        width: 100%;
+        height: 30vh;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:576px) {
+    .container-75 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .container-85 {
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .section-top h3 {
+        font-size: 18px;
+        line-height: 28px !important;
+    }
+
+    .scheduel-section {
+        margin-top: 30px;
+    }
+
+    .section-top button {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+
+    .play-around {
+        width: 40px;
+        height: 40px;
+    }
+
+    .scheduel-section p {
+        font-size: 16px;
+    }
+
+    .play-around .icon {
+        top: 29%;
+    }
+
+    .right-img {
+        padding-left: 0px;
+        padding-top: 0px;
+        background: #FFF;
+    }
+
+    .section-top {
+        padding: 150px 0px 10px 0px;
+    }
+
+    .success-rate {
+        width: 45%;
+        top: 75%;
+        left: 5%;
+        padding: 20px 10px;
+    }
+
+    .vector_move {
+        top: 73%;
+        left: 42%;
+    }
+
+    .goal-section {
+        top: 75%;
+        left: 70%;
+    }
+
+    .patient .doctor-content {
+        top: 70%;
+    }
+
+    .doctor-content p {
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+
+    .single-click h1 {
+        font-size: 22px;
+    }
+
+    .single-click p {
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+
+    .available {
+        width: 75%;
+        top: 2%;
+        left: 11%;
+    }
+
+    .pad-section {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .rest3 {
+        width: 100%;
+    }
+
+    .rest-section label {
+        font-size: 20px;
+        line-height: 30px !important;
+        text-align: start;
+    }
+
+    .mar-top {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .rest-section p {
+        font-size: 14px;
+        line-height: 24px !important;
+        text-align: start;
+        padding-left: 0px !important;
+    }
+
+    .book-appointment {
+        width: 100%;
+    }
+
+    .doctor-name {
+        margin-left: 20px;
+    }
+
+    .doctor-name h2 {
+        padding: 0px !important;
+        text-align: start;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .find-doctor button {
+        padding: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .online-section h1 {
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    .online-section p {
+        font-size: 16px;
+        line-height: 26px !important;
+    }
+
+    .res-view {
+        display: block !important;
+    }
+
+    .rest-section h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* produt css start  */
+    .sub-banner {
+        padding: 150px 0px 0px 0px;
+    }
+
+    .sub-banner p {
+        width: 90%;
+    }
+
+    .sub-banner h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .product-section section h1 {
+        font-size: 21px;
+        line-height: 31px !important;
+    }
+
+    .product-section .sub-banner p {
+        width: 95% !important;
+    }
+
+    .sub-banner p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .product-section section p {
+        font-size: 12px;
+        line-height: 24px !important;
+    }
+
+    .img-responsive {
+        margin: 50px 0px;
+        text-align: -webkit-center !important;
+    }
+
+    .product-section .bg-section {
+        margin: 0px 0px;
+    }
+
+    .product-section .pad-content {
+        padding-top: 0px;
+    }
+
+    .product-section h5 {
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    /* about page css start  */
+    .content-company {
+        padding: 0px 0px;
+    }
+
+    .vision-section h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .total-vision img {
+        position: absolute;
+        top: 12%;
+        right: 5%;
+    }
+
+    .vision-section h2 {
+        top: 12%;
+        left: 70%;
+    }
+
+    .vision-section h3 {
+        width: 25%;
+        top: 21%;
+        right: 10%;
+    }
+
+    .company-section {
+        padding: 0px 0px !important;
+    }
+
+    .company-section h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .vision-section p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 20px !important;
+    }
+
+    .company-section p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    /* patient page css start  */
+    .product-section .repeat-img {
+        top: 10%;
+        left: 70%;
+    }
+
+    .product-section .scan-img {
+        position: absolute;
+        top: 70%;
+        right: 75%;
+    }
+
+    .product-section .bgs-section {
+        margin: 0px 0px;
+    }
+
+    .klinicq h1 {
+        margin-bottom: 30px !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .small-busniess {
+        padding: 10px 0px;
+    }
+
+    .small-busniess h1 {
+        margin-bottom: 50px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .small-busniess p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .book-section .sub-banner p {
+        width: 95%;
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+
+    .contact-section .form-content h6 {
+        width: 55%;
+    }
+
+    .form-content {
+        background: #FDFDFD;
+        padding: 20px 10px;
+    }
+
+    .form-content p {
+        width: 95%;
+        font-size: 14px !important;
+    }
+
+    /* logo slider css start  */
+    .logo-slide {
+        width: 100%;
+        height: 35vh;
+    }
+}
+.btn-ghost{
+    background: #01285c;
+    color: #fff;
+    border: unset;
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+.btn-ghost:hover{
+    background: #0872ba;
+}
+.mr-3{
+    margin-right: 2rem;
+}
+.btn_sec{
+    background: #0872ba !important;
+    border: 0;
+    padding: 15px 50px;
+}
+.btn_sec:hover{
+    opacity: 0.9;
+}
+.appoinment-name{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    color: #646464;
+}
+.btn-text{
+    text-decoration: none;
+    color: #5a49f8;
+}
+.btn-text svg{
+margin-left: 10px;
+}
+img.nav-logo{
+    width: 150px;
+}
+.card-img-top{
+    height: 196px;
+    object-fit: cover;
+}
+.loginLogo{
+    width: 180px;
+}
+span.icon-circle{
+    width: 50px;
+    height: 50px;
+    background: #0673bc;
+    border-radius: 50px;
+    display: inline-block;
+}
+span.icon-circle svg{
+    text-align: center;
+    margin-top: 16px;
+}
+.figure-holder{
+    position: relative;
+    z-index: 1;
+    margin-right: 50px;
+    padding: 0 0 0 30px;
+}
